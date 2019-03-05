@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		59431432222E8097001CE42C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 59431431222E8097001CE42C /* AppDelegate.m */; };
+		5943143A222E8099001CE42C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59431439222E8099001CE42C /* Assets.xcassets */; };
+		5943143D222E8099001CE42C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5943143B222E8099001CE42C /* LaunchScreen.storyboard */; };
+		59431440222E8099001CE42C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5943143F222E8099001CE42C /* main.m */; };
+		5943144A222E8099001CE42C /* LJCStarRatingViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 59431449222E8099001CE42C /* LJCStarRatingViewTests.m */; };
+		59431455222E8099001CE42C /* LJCStarRatingViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 59431454222E8099001CE42C /* LJCStarRatingViewUITests.m */; };
+		59431465222E81B4001CE42C /* LJCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59431464222E81B3001CE42C /* LJCViewController.m */; };
+		59431468222E81DA001CE42C /* LJCStarRatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 59431467222E81DA001CE42C /* LJCStarRatingView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		59431446222E8099001CE42C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59431425222E8097001CE42C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5943142C222E8097001CE42C;
+			remoteInfo = LJCStarRatingView;
+		};
+		59431451222E8099001CE42C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59431425222E8097001CE42C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5943142C222E8097001CE42C;
+			remoteInfo = LJCStarRatingView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5943142D222E8097001CE42C /* LJCStarRatingView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LJCStarRatingView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		59431430222E8097001CE42C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		59431431222E8097001CE42C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		59431439222E8099001CE42C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5943143C222E8099001CE42C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5943143E222E8099001CE42C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5943143F222E8099001CE42C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		59431445222E8099001CE42C /* LJCStarRatingViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LJCStarRatingViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		59431449222E8099001CE42C /* LJCStarRatingViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJCStarRatingViewTests.m; sourceTree = "<group>"; };
+		5943144B222E8099001CE42C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59431450222E8099001CE42C /* LJCStarRatingViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LJCStarRatingViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		59431454222E8099001CE42C /* LJCStarRatingViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJCStarRatingViewUITests.m; sourceTree = "<group>"; };
+		59431456222E8099001CE42C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59431463222E81B3001CE42C /* LJCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJCViewController.h; sourceTree = "<group>"; };
+		59431464222E81B3001CE42C /* LJCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJCViewController.m; sourceTree = "<group>"; };
+		59431466222E81DA001CE42C /* LJCStarRatingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJCStarRatingView.h; sourceTree = "<group>"; };
+		59431467222E81DA001CE42C /* LJCStarRatingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJCStarRatingView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5943142A222E8097001CE42C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59431442222E8099001CE42C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5943144D222E8099001CE42C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		59431424222E8097001CE42C = {
+			isa = PBXGroup;
+			children = (
+				5943142F222E8097001CE42C /* LJCStarRatingView */,
+				59431448222E8099001CE42C /* LJCStarRatingViewTests */,
+				59431453222E8099001CE42C /* LJCStarRatingViewUITests */,
+				5943142E222E8097001CE42C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5943142E222E8097001CE42C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5943142D222E8097001CE42C /* LJCStarRatingView.app */,
+				59431445222E8099001CE42C /* LJCStarRatingViewTests.xctest */,
+				59431450222E8099001CE42C /* LJCStarRatingViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5943142F222E8097001CE42C /* LJCStarRatingView */ = {
+			isa = PBXGroup;
+			children = (
+				59431462222E80E4001CE42C /* LJCStarRatingView */,
+				59431463222E81B3001CE42C /* LJCViewController.h */,
+				59431464222E81B3001CE42C /* LJCViewController.m */,
+				59431430222E8097001CE42C /* AppDelegate.h */,
+				59431431222E8097001CE42C /* AppDelegate.m */,
+				59431439222E8099001CE42C /* Assets.xcassets */,
+				5943143B222E8099001CE42C /* LaunchScreen.storyboard */,
+				5943143E222E8099001CE42C /* Info.plist */,
+				5943143F222E8099001CE42C /* main.m */,
+			);
+			path = LJCStarRatingView;
+			sourceTree = "<group>";
+		};
+		59431448222E8099001CE42C /* LJCStarRatingViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				59431449222E8099001CE42C /* LJCStarRatingViewTests.m */,
+				5943144B222E8099001CE42C /* Info.plist */,
+			);
+			path = LJCStarRatingViewTests;
+			sourceTree = "<group>";
+		};
+		59431453222E8099001CE42C /* LJCStarRatingViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				59431454222E8099001CE42C /* LJCStarRatingViewUITests.m */,
+				59431456222E8099001CE42C /* Info.plist */,
+			);
+			path = LJCStarRatingViewUITests;
+			sourceTree = "<group>";
+		};
+		59431462222E80E4001CE42C /* LJCStarRatingView */ = {
+			isa = PBXGroup;
+			children = (
+				59431466222E81DA001CE42C /* LJCStarRatingView.h */,
+				59431467222E81DA001CE42C /* LJCStarRatingView.m */,
+			);
+			path = LJCStarRatingView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5943142C222E8097001CE42C /* LJCStarRatingView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59431459222E8099001CE42C /* Build configuration list for PBXNativeTarget "LJCStarRatingView" */;
+			buildPhases = (
+				59431429222E8097001CE42C /* Sources */,
+				5943142A222E8097001CE42C /* Frameworks */,
+				5943142B222E8097001CE42C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LJCStarRatingView;
+			productName = LJCStarRatingView;
+			productReference = 5943142D222E8097001CE42C /* LJCStarRatingView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		59431444222E8099001CE42C /* LJCStarRatingViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5943145C222E8099001CE42C /* Build configuration list for PBXNativeTarget "LJCStarRatingViewTests" */;
+			buildPhases = (
+				59431441222E8099001CE42C /* Sources */,
+				59431442222E8099001CE42C /* Frameworks */,
+				59431443222E8099001CE42C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59431447222E8099001CE42C /* PBXTargetDependency */,
+			);
+			name = LJCStarRatingViewTests;
+			productName = LJCStarRatingViewTests;
+			productReference = 59431445222E8099001CE42C /* LJCStarRatingViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5943144F222E8099001CE42C /* LJCStarRatingViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5943145F222E8099001CE42C /* Build configuration list for PBXNativeTarget "LJCStarRatingViewUITests" */;
+			buildPhases = (
+				5943144C222E8099001CE42C /* Sources */,
+				5943144D222E8099001CE42C /* Frameworks */,
+				5943144E222E8099001CE42C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59431452222E8099001CE42C /* PBXTargetDependency */,
+			);
+			name = LJCStarRatingViewUITests;
+			productName = LJCStarRatingViewUITests;
+			productReference = 59431450222E8099001CE42C /* LJCStarRatingViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		59431425222E8097001CE42C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "林锦超";
+				TargetAttributes = {
+					5943142C222E8097001CE42C = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					59431444222E8099001CE42C = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 5943142C222E8097001CE42C;
+					};
+					5943144F222E8099001CE42C = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 5943142C222E8097001CE42C;
+					};
+				};
+			};
+			buildConfigurationList = 59431428222E8097001CE42C /* Build configuration list for PBXProject "LJCStarRatingView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 59431424222E8097001CE42C;
+			productRefGroup = 5943142E222E8097001CE42C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5943142C222E8097001CE42C /* LJCStarRatingView */,
+				59431444222E8099001CE42C /* LJCStarRatingViewTests */,
+				5943144F222E8099001CE42C /* LJCStarRatingViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5943142B222E8097001CE42C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5943143D222E8099001CE42C /* LaunchScreen.storyboard in Resources */,
+				5943143A222E8099001CE42C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59431443222E8099001CE42C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5943144E222E8099001CE42C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		59431429222E8097001CE42C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59431465222E81B4001CE42C /* LJCViewController.m in Sources */,
+				59431468222E81DA001CE42C /* LJCStarRatingView.m in Sources */,
+				59431440222E8099001CE42C /* main.m in Sources */,
+				59431432222E8097001CE42C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59431441222E8099001CE42C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5943144A222E8099001CE42C /* LJCStarRatingViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5943144C222E8099001CE42C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59431455222E8099001CE42C /* LJCStarRatingViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		59431447222E8099001CE42C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5943142C222E8097001CE42C /* LJCStarRatingView */;
+			targetProxy = 59431446222E8099001CE42C /* PBXContainerItemProxy */;
+		};
+		59431452222E8099001CE42C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5943142C222E8097001CE42C /* LJCStarRatingView */;
+			targetProxy = 59431451222E8099001CE42C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5943143B222E8099001CE42C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5943143C222E8099001CE42C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		59431457222E8099001CE42C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		59431458222E8099001CE42C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5943145A222E8099001CE42C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z8L6HPM4D4;
+				INFOPLIST_FILE = LJCStarRatingView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Hope.LJCStarRatingView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5943145B222E8099001CE42C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z8L6HPM4D4;
+				INFOPLIST_FILE = LJCStarRatingView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Hope.LJCStarRatingView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5943145D222E8099001CE42C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z8L6HPM4D4;
+				INFOPLIST_FILE = LJCStarRatingViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Hope.LJCStarRatingViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LJCStarRatingView.app/LJCStarRatingView";
+			};
+			name = Debug;
+		};
+		5943145E222E8099001CE42C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z8L6HPM4D4;
+				INFOPLIST_FILE = LJCStarRatingViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Hope.LJCStarRatingViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LJCStarRatingView.app/LJCStarRatingView";
+			};
+			name = Release;
+		};
+		59431460222E8099001CE42C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z8L6HPM4D4;
+				INFOPLIST_FILE = LJCStarRatingViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Hope.LJCStarRatingViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LJCStarRatingView;
+			};
+			name = Debug;
+		};
+		59431461222E8099001CE42C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z8L6HPM4D4;
+				INFOPLIST_FILE = LJCStarRatingViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Hope.LJCStarRatingViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LJCStarRatingView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		59431428222E8097001CE42C /* Build configuration list for PBXProject "LJCStarRatingView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59431457222E8099001CE42C /* Debug */,
+				59431458222E8099001CE42C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59431459222E8099001CE42C /* Build configuration list for PBXNativeTarget "LJCStarRatingView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5943145A222E8099001CE42C /* Debug */,
+				5943145B222E8099001CE42C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5943145C222E8099001CE42C /* Build configuration list for PBXNativeTarget "LJCStarRatingViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5943145D222E8099001CE42C /* Debug */,
+				5943145E222E8099001CE42C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5943145F222E8099001CE42C /* Build configuration list for PBXNativeTarget "LJCStarRatingViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59431460222E8099001CE42C /* Debug */,
+				59431461222E8099001CE42C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 59431425222E8097001CE42C /* Project object */;
+}
