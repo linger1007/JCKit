@@ -8,6 +8,7 @@
 
 #import "LJCViewController.h"
 #import "LJCStarRatingView.h"
+#import "LJCPerformanceViewController.h"
 
 @interface LJCViewController ()
 @property (nonatomic, strong) LJCStarRatingView *ratingView;
@@ -19,6 +20,7 @@
 @property (nonatomic, strong) UISwitch *floatableSwitch;
 @property (nonatomic, strong) UILabel *touchablePrompt;
 @property (nonatomic, strong) UISwitch *touchableSwitch;
+@property (nonatomic, strong) UIButton *performanceButton;
 @end
 
 @implementation LJCViewController
@@ -38,6 +40,7 @@
     [self.view addSubview:self.floatableSwitch];
     [self.view addSubview:self.touchablePrompt];
     [self.view addSubview:self.touchableSwitch];
+    [self.view addSubview:self.performanceButton];
 }
 
 #pragma mark - Getter
@@ -150,6 +153,18 @@
     return _touchableSwitch;
 }
 
+- (UIButton *)performanceButton
+{
+    if (!_performanceButton) {
+        CGFloat width = 150;
+        _performanceButton = [[UIButton alloc] initWithFrame:CGRectMake((CGRectGetWidth(self.view.frame) - width) / 2, CGRectGetMinY(self.touchableSwitch.frame) + 50, width, 50)];
+        [_performanceButton setTitle:@"performance" forState:UIControlStateNormal];
+        [_performanceButton setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+        [_performanceButton addTarget:self action:@selector(handleButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
+    }
+    return _performanceButton;
+}
+
 #pragma mark - Action
 - (IBAction)handleSliderValueChanged:(UISlider *)sender
 {
@@ -164,5 +179,10 @@
 - (IBAction)handleTouchableSwitchChanged:(UISwitch *)sender
 {
     self.ratingView.touchable = sender.on;
+}
+
+- (IBAction)handleButtonPressed:(id)sender
+{
+    [self.navigationController pushViewController:[LJCPerformanceViewController new] animated:YES];
 }
 @end

@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "LJCViewController.h"
+#import "FPSDisplay.h"
 
 @interface AppDelegate ()
 
@@ -20,10 +21,16 @@
 {
     // Override point for customization after application launch.
     // Note: 使用NSUserDefaults来判断程序是否第一次启动
+    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:[LJCViewController new]];
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor whiteColor];
-    self.window.rootViewController = [LJCViewController new];
+    self.window.rootViewController = navController;
     [self.window makeKeyAndVisible];
+    
+    //fps
+    dispatch_async(dispatch_get_main_queue(), ^{
+        [FPSDisplay shareFPSDisplay];
+    });
     
     return YES;
 }

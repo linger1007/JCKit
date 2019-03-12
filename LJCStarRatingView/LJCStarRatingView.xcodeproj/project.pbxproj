@@ -15,6 +15,9 @@
 		59431455222E8099001CE42C /* LJCStarRatingViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 59431454222E8099001CE42C /* LJCStarRatingViewUITests.m */; };
 		59431465222E81B4001CE42C /* LJCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59431464222E81B3001CE42C /* LJCViewController.m */; };
 		59431468222E81DA001CE42C /* LJCStarRatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 59431467222E81DA001CE42C /* LJCStarRatingView.m */; };
+		59A0422D2236C66500A23756 /* LJCPerformanceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59A0422C2236C66500A23756 /* LJCPerformanceViewController.m */; };
+		59A042302236C67D00A23756 /* LJCPerformanceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 59A0422F2236C67D00A23756 /* LJCPerformanceCell.m */; };
+		59A0423A2236CAE200A23756 /* FPSDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = 59A042392236CAE200A23756 /* FPSDisplay.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +55,12 @@
 		59431464222E81B3001CE42C /* LJCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJCViewController.m; sourceTree = "<group>"; };
 		59431466222E81DA001CE42C /* LJCStarRatingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJCStarRatingView.h; sourceTree = "<group>"; };
 		59431467222E81DA001CE42C /* LJCStarRatingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJCStarRatingView.m; sourceTree = "<group>"; };
+		59A0422B2236C66500A23756 /* LJCPerformanceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJCPerformanceViewController.h; sourceTree = "<group>"; };
+		59A0422C2236C66500A23756 /* LJCPerformanceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJCPerformanceViewController.m; sourceTree = "<group>"; };
+		59A0422E2236C67D00A23756 /* LJCPerformanceCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJCPerformanceCell.h; sourceTree = "<group>"; };
+		59A0422F2236C67D00A23756 /* LJCPerformanceCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJCPerformanceCell.m; sourceTree = "<group>"; };
+		59A042382236CAE200A23756 /* FPSDisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPSDisplay.h; sourceTree = "<group>"; };
+		59A042392236CAE200A23756 /* FPSDisplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPSDisplay.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +114,12 @@
 				59431462222E80E4001CE42C /* LJCStarRatingView */,
 				59431463222E81B3001CE42C /* LJCViewController.h */,
 				59431464222E81B3001CE42C /* LJCViewController.m */,
+				59A0422B2236C66500A23756 /* LJCPerformanceViewController.h */,
+				59A0422C2236C66500A23756 /* LJCPerformanceViewController.m */,
+				59A0422E2236C67D00A23756 /* LJCPerformanceCell.h */,
+				59A0422F2236C67D00A23756 /* LJCPerformanceCell.m */,
+				59A042382236CAE200A23756 /* FPSDisplay.h */,
+				59A042392236CAE200A23756 /* FPSDisplay.m */,
 				59431430222E8097001CE42C /* AppDelegate.h */,
 				59431431222E8097001CE42C /* AppDelegate.m */,
 				59431439222E8099001CE42C /* Assets.xcassets */,
@@ -271,9 +286,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59A042302236C67D00A23756 /* LJCPerformanceCell.m in Sources */,
 				59431465222E81B4001CE42C /* LJCViewController.m in Sources */,
 				59431468222E81DA001CE42C /* LJCStarRatingView.m in Sources */,
 				59431440222E8099001CE42C /* main.m in Sources */,
+				59A0422D2236C66500A23756 /* LJCPerformanceViewController.m in Sources */,
+				59A0423A2236CAE200A23756 /* FPSDisplay.m in Sources */,
 				59431432222E8097001CE42C /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

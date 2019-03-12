@@ -142,11 +142,11 @@ static const NSUInteger kNumberOfStars = 5;
     
     BOOL isUpdate = NO;
     if (self.isFloatable) {
-        isUpdate = (self.rating == percentage * kNumberOfStars);
+        isUpdate = (self.rating != percentage * kNumberOfStars);
         self.rating = percentage * kNumberOfStars;
     }
     else {
-        isUpdate = (self.rating == ceil(percentage * kNumberOfStars));
+        isUpdate = (self.rating != ceil(percentage * kNumberOfStars));
         self.rating = ceil(percentage * kNumberOfStars);
     }
     
